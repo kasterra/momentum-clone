@@ -2,9 +2,9 @@
 Clones momentum. And some useful information.
 
 # Todos
-- [ ] Make Clock
+- [X] Make Clock
     - [ ] Make time format selectable
-- [ ] Ask username and Reflect it
+- [X] Ask username and Reflect it
 - [ ] Random Background images
 - [ ] Manage TodoList
 	- [ ] Mark as finished
