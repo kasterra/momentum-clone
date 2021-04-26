@@ -39,3 +39,11 @@ input::placeholder{
 .todos input{
     font-size:30px;
 }
+
+button{
+    font-size:40px;
+    width:60px;
+    height:60px;
+    border:none;
+    background-color:transparent;
+}
