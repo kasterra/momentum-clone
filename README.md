@@ -5,6 +5,7 @@ Clones momentum. And some useful information.
 - [X] Make Clock
     - [ ] Make time format selectable
 - [X] Ask username and Reflect it
+    - [ ] Make username editable
 - [ ] Random Background images
 - [ ] Manage TodoList
 	- [ ] Mark as finished

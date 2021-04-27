@@ -1,6 +1,4 @@
 body{
-    width:100vw;
-    height:100vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -36,7 +34,18 @@ input::placeholder{
     color:rgba(0,0,0,0.7);
 }
 
+.todos{
+    margin-top:20px;
+}
+
 .todos input{
+    font-size:30px;
+}
+
+.todo--list{
+    list-style-type:none;
+}
+.todo--list li{
     font-size:30px;
 }
 
