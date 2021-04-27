@@ -8,7 +8,10 @@ Clones momentum. And some useful information.
     - [ ] Make username editable
 - [ ] Random Background images
 - [ ] Manage TodoList
+    - [X] Create Todo
+    - [ ] Update Todo
+    - [X] Delete Todo
 	- [ ] Mark as finished
-- [ ] Saved those personal stuffs in browser
+- [X] Save those personal stuffs in browser
 - [ ] Show COVID-19 status
 - [ ] Get Awesome Animation with CSS
