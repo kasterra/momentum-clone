@@ -1,3 +1,5 @@
+@import 'animation.css';
+
 h1, h2, span{
     color:white;
 }
@@ -32,6 +34,7 @@ input, input:focus{
     outline:none;
     border:none;
     border-bottom:3px solid rgba(255,255,255,0.8);
+    background-color:transparent;
 }
 input::placeholder{
     color:rgba(255,255,255,0.7);
@@ -48,6 +51,8 @@ input::placeholder{
 
 .todo--list{
     list-style-type:none;
+    overflow-y:scroll;
+    max-height:300px;
 }
 .todo--list li{
     font-size:30px;
@@ -63,7 +68,8 @@ button{
 
 .bgImage{
     position:absolute;
-    width:100vw;
-    height:100vh;
+    width:100%;
+    height:100%;
     z-index:-1;
+    animation:1s linear fadeIn;
 }
