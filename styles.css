@@ -1,3 +1,6 @@
+h1, h2, span{
+    color:white;
+}
 body{
     display:flex;
     flex-direction:column;
@@ -28,10 +31,10 @@ input, input:focus{
     text-align:center;
     outline:none;
     border:none;
-    border-bottom:3px solid rgba(0,0,0,0.8);
+    border-bottom:3px solid rgba(255,255,255,0.8);
 }
 input::placeholder{
-    color:rgba(0,0,0,0.7);
+    color:rgba(255,255,255,0.7);
 }
 
 .todos{
@@ -40,6 +43,7 @@ input::placeholder{
 
 .todos input{
     font-size:30px;
+    background-color:transparent;
 }
 
 .todo--list{
@@ -55,4 +59,11 @@ button{
     height:60px;
     border:none;
     background-color:transparent;
+}
+
+.bgImage{
+    position:absolute;
+    width:100vw;
+    height:100vh;
+    z-index:-1;
 }
