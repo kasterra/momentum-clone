@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Moementum-clone</title>
-        <link href="styles.css" rel="stylesheet" />
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
-        />
-    </head>
-    <body>
-        <div class="top-box">
-            <div class="clock-box">
-                <h1 class="clock-box--clock">
-                    00:00:00
-                </h1>
-            </div>
-            <form class="name-getter" display="none">
-                <input type="text" placeholder="What is your name?" />
-            </form>
-            <div class="hello-message">
-                <span class="name-hello hidden">Hello "NAME".</span>
-                <span class="name-hello hidden">What is your interest today?</span>
-            </div>
-        </div>
-        <div class="todos hidden">
-            <form class="todo-getter">
-                <input type="text" placeholder="Input your to-do stuff" />
-            </form>
-            <ul class="todo--list"></ul>
-        </div>
-        <footer>
-            <script src="clock.js"></script>
-            <script src="greeting.js"></script>
-            <script src="getTodo.js"></script>
-            <script src="getInfo.js"></script>
-            <script src="background.js"></script>
-        </footer>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moementum-clone</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="top-box">
+      <div class="clock-box">
+        <h1 class="clock-box--clock">00:00:00</h1>
+      </div>
+      <form class="name-getter" display="none">
+        <input type="text" placeholder="What is your name?" />
+      </form>
+      <div class="hello-message">
+        <span class="name-hello hidden">Hello "NAME".</span>
+        <span class="name-hello hidden">What is your interest today?</span>
+      </div>
+    </div>
+    <div class="todos hidden">
+      <form class="todo-getter">
+        <input type="text" placeholder="Input your to-do stuff" />
+      </form>
+      <ul class="todo--list"></ul>
+    </div>
+    <div class="weather hidden">
+      <span id="city">Earth</span>
+      <span id="weather">Sunny?</span>
+    </div>
+    <footer>
+      <script src="clock.js"></script>
+      <script src="greeting.js"></script>
+      <script src="getTodo.js"></script>
+      <script src="getInfo.js"></script>
+      <script src="background.js"></script>
+      <script src="weather.js"></script>
+    </footer>
+  </body>
 </html>
